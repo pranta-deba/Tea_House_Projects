@@ -36,12 +36,12 @@
     <!-- header start -->
     <header class="lg:container mx-auto lg:px-40">
         <nav>
-            <div class="navbar bg-red-100">
+            <div class="navbar bg-gradient-to-r from-[#F00] to-[#FF8938]">
                 <div class="navbar-start">
                     <div class="dropdown">
                         <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M4 6h16M4 12h16M4 18h7" />
                             </svg>
@@ -55,24 +55,24 @@
                     </div>
                 </div>
                 <div class="navbar-center">
-                    <a class="btn btn-ghost text-xl uppercase">Tea House</a>
+                    <a class="btn btn-ghost text-xl uppercase text-white">Tea House</a>
                 </div>
                 <div class="navbar-end">
                     <button class="btn btn-ghost btn-circle">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                         </svg>
                     </button>
                     <button class="btn btn-ghost btn-circle">
                         <div class="indicator">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
                             </svg>
-                            <span class="badge badge-xs badge-primary indicator-item"></span>
+                            <span class="badge badge-xs indicator-item"></span>
                         </div>
                     </button>
                 </div>
@@ -111,7 +111,7 @@
     <main class="lg:container mx-auto lg:px-40">
 
         <!-- Our Featured Products start -->
-        <section class="text-center mt-20">
+        <section class="text-center my-10">
             <h2 class="text-4xl font-extrabold">Our Featured Products</h2>
             <p class="text-base font-normal text-[#777] py-5 lg:max-w-4xl mx-auto">There are many variations of passages
                 of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or
@@ -119,28 +119,32 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-9 p-3">
                 <div class="card shadow-xl text-center space-y-6 bg-gradient-to-r from-[#F4F4F4] to-[#EAEAEA] p-5">
-                    <figure><img src="assets/images/tea-1.png" alt="Shoes" /></figure>
+                    <figure><img class="hover:scale-100 scale-90 transition-all" src="assets/images/tea-1.png"
+                            alt="Shoes" /></figure>
                     <div>
                         <h2 class="text-2xl font-extrabold">Milk Tea</h2>
                         <p class="font-normal text-[#777]">Creamer could be replaced by fresh milk</p>
                     </div>
                 </div>
                 <div class="card shadow-xl text-center space-y-6 bg-gradient-to-r from-[#F4F4F4] to-[#EAEAEA] p-5">
-                    <figure><img src="assets/images/tea-2.png" alt="Shoes" /></figure>
+                    <figure><img class="hover:scale-100 scale-90 transition-all" src="assets/images/tea-2.png"
+                            alt="Shoes" /></figure>
                     <div>
                         <h2 class="text-2xl font-extrabold">Black Tea</h2>
                         <p class="font-normal text-[#777]">Creamer could be replaced by fresh milk</p>
                     </div>
                 </div>
                 <div class="card shadow-xl text-center space-y-6 bg-gradient-to-r from-[#F4F4F4] to-[#EAEAEA] p-5">
-                    <figure><img src="assets/images/tea-3.png" alt="Shoes" /></figure>
+                    <figure><img class="hover:scale-100 scale-90 transition-all" src="assets/images/tea-3.png"
+                            alt="Shoes" /></figure>
                     <div>
                         <h2 class="text-2xl font-extrabold">Lemon Tea</h2>
                         <p class="font-normal text-[#777]">Creamer could be replaced by fresh milk</p>
                     </div>
                 </div>
                 <div class="card shadow-xl text-center space-y-6 bg-gradient-to-r from-[#F4F4F4] to-[#EAEAEA] p-5">
-                    <figure><img src="assets/images/tea-4.png" alt="Shoes" /></figure>
+                    <figure><img class="hover:scale-100 scale-90 transition-all" src="assets/images/tea-4.png"
+                            alt="Shoes" /></figure>
                     <div>
                         <h2 class="text-2xl font-extrabold">Green Tea</h2>
                         <p class="font-normal text-[#777]">Creamer could be replaced by fresh milk</p>
@@ -150,6 +154,37 @@
 
         </section>
         <!-- Our Featured Products end -->
+
+
+        <!-- Great Tea, Freshly Presented start -->
+        <section class="my-28 p-2">
+            <div class="flex flex-col-reverse md:flex-row gap-10">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-5 flex-1">
+                    <div class="rounded-xl min-h-[135px] bg-[#E6A6231A] hidden md:flex"></div>
+                    <div class="row-span-2 rounded-xl bg-[#E6A6231A] flex items-center justify-center py-6 px-5"><img src="assets/images/fresh-1.png" alt=""></div>
+                    <div class="row-span-2 rounded-xl bg-[#574C391A] flex items-center justify-center py-6 px-5"><img src="assets/images/fresh-2.png" alt=""></div>
+                    <div class="rounded-xl min-h-[135px] bg-[#574C391A] hidden md:flex"></div>
+                </div>
+                <div class="space-y-7 flex-1">
+                    <h1 class="text-4xl font-extrabold">Great Tea, Freshly <br> Presented</h1>
+                    <p class="text-base font-normal text-[#777]">The meaning of gong cha is chanese is to provide the
+                        best tea to emperor from all possessions . It represents the highest quality and self
+                        expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers because
+                        of good words of mouth and unique customized service orginated from Taiwan.</p>
+                    <div>
+                        <h4 class="text-xl font-extrabold">Unique Taste</h4>
+                        <p class="text-base font-normal text-[#777]">A Unique and different style from other teapots
+                            gives a luxurious and minimalist impression</p>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-extrabold">Premium Quality</h4>
+                        <p class="text-base font-normal text-[#777]">Premium Quality that makes tea more elegant and
+                            more durable when you use it.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Great Tea, Freshly Presented end -->
 
 
     </main>
